@@ -111,51 +111,6 @@ const Services = () => {
             </li>
           </ul>
         </article>
-        <article className="service">
-          <div className="service__head">
-            <h3>Cybersecurity</h3>
-          </div>
-          
-          <ul className='service__list'>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Worked in VM Fusion Kali Linux Machine</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Network scanning and packets sniffing with WireShark</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Packets sniffing through WireShark</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Network scanning using CLI Nmap</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Setup LMAP environment with XAMPP</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>SQL Injection Attacks and Prevention</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Able to SQLMap to perform Privilege esclation </p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>XSS(Cross-site scripting) Attacks/Preventions</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Able to perform ARP and Man-in-the-middle attacks using Ettercap</p>
-            </li>
-          </ul>
-        </article>
-        {/*END OF CONTENT CREATION */}
       </div>
     </section>
   )

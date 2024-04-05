@@ -30,11 +30,11 @@ const data = [
     github: 'https://github.com/Chanpech/StudentEvaluation-And-CourseRegistration'
   },
   {
-    id: 4, 
-    image: IMG4,
-    title: 'BlizzardApocalypse (Private and In Progress)',
-    github: 'https://github.com/JoyconBros'
-  },
+    id: 4,
+    image: IMG7,
+    title: 'Data Structures Projects',
+    github: 'https://github.com/Chanpech/CS2321-Data-Structures'
+    },
   {
     id: 5, 
     image: IMG5,
@@ -48,17 +48,6 @@ const data = [
     github: 'https://github.com/Chanpech/Lighthall-Super-Leauge-Click-Counter',
     demo: 'https://ligh-hall-super-leauge-challenge1.vercel.app/'
   },
-  {
-  id: 7,
-  image: IMG7,
-  title: 'Data Structures Projects',
-  github: 'https://github.com/Chanpech/CS2321-Data-Structures'
-  },
-  {
-    id: 8,
-    image: IMG8,
-    title: 'Circuits and Instrumentation - Final Lab Project',
-  }
 
 ]
 
@@ -66,9 +55,10 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Course Projects</h2>
 
       <div className="container portfolio__container">
+        <div className="container portfolio__sub__container">
         {
           data.map(({id, image, title, github, demo}) => {
             return (
@@ -84,7 +74,11 @@ const Portfolio = () => {
             )
           })
         }
+        </div>
+
+
       </div>
+      <h2>Projects</h2>
     </section>
   )
 }

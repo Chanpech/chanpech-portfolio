@@ -1,8 +1,8 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/PostImage.jpg'
+import ME from '../../assets/husky.jpeg'
 import { TbCertificate } from 'react-icons/tb'
-import { FiGithub } from 'react-icons/fi'
+import { TbBrandApple  } from 'react-icons/tb'
 import { VscFileSubmodule } from 'react-icons/vsc'
 
 const About = () => {
@@ -24,24 +24,23 @@ const About = () => {
               <small>4+ years</small>
             </article>
             <article className='about__card'>
-              <FiGithub className='about__icon' />
-              <h5>GitHub</h5>
-              <small>66+ contributions</small>
+              <TbBrandApple className='about__icon' />
+              <h5>IT Mac Technican</h5>
+              <small>2+ Years</small>
             </article>
             <article className='about__card'>
               <VscFileSubmodule className='about__icon' />
               <h5>Programming Projects</h5>
-              <small>7+</small>
+              <small>10+</small>
             </article>
           </div>
           <p>
-          As a third-year Computer Science major 
-          with a minor in Cyber Security, I possess 
-          valuable skills in both frontend and backend web development. 
-          My previous experience as a full-stack developer for Little Brother, 
-          along with my current role on the Michigan Tech Mac Team, 
-          has further honed my abilities and taught me to be adaptable to new programming languages. I am now eagerly seeking a 2023 summer internship opportunity in software or web development,
-          where I can continue to apply and expand my skills.
+          As a fourth-year Computer Science student at Michigan Technological University, 
+          I bring a robust skill set encompassing both frontend and backend web development. 
+          My tenure as a full-stack developer at Little Brother, coupled with my current position on the Michigan Tech Mac Team, 
+          has fortified my proficiency and instilled adaptability in mastering new programming languages. 
+          I am currently in search of entry-level job and internship opportunities commencing as early as the summer of 2024. 
+          My aim is to further leverage and augment my capabilities in software or web development while contributing positively to a dynamic team environment.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

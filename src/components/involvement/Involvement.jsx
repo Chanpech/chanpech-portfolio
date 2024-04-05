@@ -15,18 +15,18 @@ const data = [
   {
     avatar: AVTR1,
     name: 'Networking and Computing Student Association (NCSA)',
-    review: 'Joined with to connects with others interested in systems, network, security, and software engineering.',
+    review: 'Dev team is responsible for incubating application-level solutions for NCSA and it\'s customers. These projects often involve software development, software maintenance, application integration, testing, and the wider field of dev-ops.',
   },
   {
-    avatar: AVTR2,
+    avatar: AVTR3,
     name: 'Society of Asian Scientists and Engineers (SASE)',
     review: 'To connects and creates meaningful experience with other student that share the same Asian Pacific background.',
   },
   {
-    avatar: AVTR3,
+    avatar: AVTR2,
     name: 'Human Interface Design Enterprise(HIDE)',
-    review: 'Invovled in the Little Brother - Friends of the elderly team.',
-  }
+    review: 'Proud full-stack developer of Little Brother - Friends of the elderly team and co-lead GM Car Comparison App.',
+  },
 ]
 
 const Involvement = () => {
@@ -55,6 +55,7 @@ const Involvement = () => {
         }
       </Swiper>
     </section>
+    
   )
 }
 

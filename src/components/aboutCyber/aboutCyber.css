@@ -1,0 +1,106 @@
+.aboutCyber__container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.aboutCyber__me{
+    width: 70%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary),
+        transparent
+    );
+    display: grid;
+    place-items: center;
+}
+
+.aboutCyber__me-image{
+    border-radius: 2rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.aboutCyber__me-image:hover{
+    transform: rotate(0);
+}
+
+.aboutCyber__cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+
+.aboutCyber__card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.aboutCyber__card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.aboutCyber__icon{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.aboutCyber__card h5{
+    font-size: 0.95rem;
+}
+
+.aboutCyber__card small{
+    font-size:0.7 rem;
+    color: var(--color-light);
+}
+
+.aboutCyber__content p{
+    margin: 2rem 0 2.6rem;
+    color:var(--color-light);
+}
+
+/*================ MEDIA QUERIES (MEDIUM DEVICES) =============*/
+@media screen and (max-width: 1024px){
+    .aboutCyber__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .aboutCyber__me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+    .aboutCyber__content p{
+        margin: 1rem 0 1.5rem;
+    }
+}
+/*================ MEDIA QUERIES (SMALL DEVICES) =============*/
+@media screen and (max-width: 600px){
+    .aboutCyber__me{
+        width:65%;
+        margin: 0 auto 3rem;
+    }
+
+    .aboutCyber__cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .aboutCyber__content{
+        text-align:center
+    }
+    .aboutCyber__content p{
+        margin: 1.5rem 0;
+    }
+}

@@ -6,11 +6,14 @@ import About from './components/about/About'
 import Experience from './components/experience/Experience'
 import Services from './components/services/Services'
 import Portfolio from './components/portfolio/Portfolio'
-import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Attribute from './components/attribute/Attribute'
 import Involvement from './components/involvement/Involvement'
+import Cybersecurity from './components/cybersecurity/Cybersecurity'
+import Certification from './components/certification/Certification'
+import AboutCyber from './components/aboutCyber/AboutCyber'
+import TechnicalCourses from './components/TechnicalCourses/TechnicalCourses'
 
 const App = () => {
   return (
@@ -21,8 +24,11 @@ const App = () => {
       <Experience />
       <Services />
       <Portfolio />
-      <Testimonials />
+      <AboutCyber />
+      <Cybersecurity />
+      <TechnicalCourses />
       <Involvement />
+      <Certification/>
       <Contact />
       <Footer />
     </>
