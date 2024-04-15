@@ -1,6 +1,6 @@
 import React from 'react'
 import './aboutCyber.css'
-import ME from '../../assets/ethicalhacker.png'
+import ME from '../../assets/CyberSecurity.png'
 import { TbCertificate } from 'react-icons/tb'
 import { TbBrandApple } from 'react-icons/tb'
 import { VscFileSubmodule } from 'react-icons/vsc'
@@ -16,12 +16,12 @@ const AboutCyber = () => {
             <article className='aboutCyber__card'>
               <TbCertificate className='aboutCyber__icon' />
               <h5>Scripting Experience</h5>
-              <small>4+ years</small>
+              <small>1+ years</small>
             </article>
             <article className='aboutCyber__card'>
               <VscFileSubmodule className='aboutCyber__icon' />
-              <h5>Programming Projects</h5>
-              <small>10+</small>
+              <h5>Jamf Pro Management</h5>
+              <small>2+ years</small>
             </article>
           </div>
           <p>

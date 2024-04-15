@@ -73,7 +73,7 @@ const Services = () => {
         {/*END OF WEB DEVELOPMENT*/}
         <article className="service">
           <div className="service__head">
-            <h3>Object Oriented Programming</h3>
+            <h3>Programming Foundations</h3>
           </div>
           
           <ul className='service__list'>
