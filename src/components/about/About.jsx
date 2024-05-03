@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/husky.jpeg'
 import { TbCertificate } from 'react-icons/tb'
-import { TbBrandApple  } from 'react-icons/tb'
+import { TbBrandApple } from 'react-icons/tb'
 import { VscFileSubmodule } from 'react-icons/vsc'
 
 const About = () => {
@@ -35,12 +35,12 @@ const About = () => {
             </article>
           </div>
           <p>
-          As a fourth-year Computer Science student at Michigan Technological University, 
-          I bring a robust skill set encompassing both frontend and backend web development. 
-          My tenure as a full-stack developer at Little Brother, coupled with my current position on the Michigan Tech Mac Team, 
-          has fortified my proficiency and instilled adaptability in mastering new programming languages. 
-          I am currently in search of entry-level job and internship opportunities commencing as early as the summer of 2024. 
-          My aim is to further leverage and augment my capabilities in software or web development while contributing positively to a dynamic team environment.
+            As a recent Computer Science graduate from Michigan Technological University, I have honed a versatile skill set in both frontend and backend development,
+            underpinned by a strong academic background with a GPA of 3.71 and a departmental GPA of 3.55. My experience as a full-stack developer for Little Brother - Friends of the Elderly, and my role in the Michigan Tech Mac Team,
+            have sharpened my abilities in C/C++, system programming, React, Next.js, Vite, and Docker. Proficient in object-oriented programming,
+            data structures, concurrent programming, and experienced with version control systems like Git, GitHub, GitLab, and BitBucket,
+            I am adept at navigating the complexities of software development. Additionally, my familiarity with AWS supports my capability to work in diverse development environments.
+            Eager to start my professional journey, I am seeking entry-level positions or internships in software or web development starting from the summer of 2024, where I can contribute to and grow with a dynamic team.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
