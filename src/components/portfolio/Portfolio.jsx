@@ -14,7 +14,7 @@ const data = [
   {
     id: 1, 
     image: IMG1,
-    title: 'Habit Builder',
+    title: 'Airbnb Clone',
     github: 'https://my-home-booking-clone-app.vercel.app/',
     descriptions: 'A Full-Stack Airbnb Clone that is implemented through Next.js 13 App Router integrating React, Tailwind, Prisma, MongoDB, and NextAuth.'
   },
