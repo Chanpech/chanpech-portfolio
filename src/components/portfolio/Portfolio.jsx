@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/Habit Builder.png'
+import IMG1 from '../../assets/AirbnbLogo.png'
 import IMG2 from '../../assets/LBro.jpg'
 // import IMG3 from '../../assets/Evaluation.png'
 // import IMG4 from '../../assets/BlizzardApocalypse.png'
@@ -15,8 +15,8 @@ const data = [
     id: 1, 
     image: IMG1,
     title: 'Habit Builder',
-    github: 'https://github.com/MTU-CS3141-Team15/CS3141-R02-team15',
-    descriptions: 'A web application that helps users build habits by tracking their progress and providing feedback.'
+    github: 'https://my-home-booking-clone-app.vercel.app/',
+    descriptions: 'A Full-Stack Airbnb Clone that is implemented through Next.js 13 App Router integrating React, Tailwind, Prisma, MongoDB, and NextAuth.'
   },
   {
     id: 2, 
@@ -55,7 +55,7 @@ const Portfolio = () => {
                 <h5>{descriptions}</h5>
               </div>
               <div className="portfolio__item-cta">
-              <a href={github} className='btn'>GitHub</a>
+              <a href={github} className='btn'>Check It Out!</a>
               </div>
             </article>
             )
