@@ -9,13 +9,12 @@ import AVTR6 from '../../assets/hierarchical-structure.png'
 import AVTR7 from '../../assets/icons8-resistor-64.png'
 import AVTR8 from '../../assets/logic-gates.png'
 import AVTR9 from '../../assets/neural.png'
-import { Navigation, Pagination} from 'swiper';
+import { Pagination} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 const data = [
@@ -69,14 +68,13 @@ const data = [
 const TechnicalCourses = () => {
   return (
     <section id='TechnicalCourses'>
-      <h5>Courses completed at Michigan Technological University</h5>
+      <h5>Completed courses at Michigan Technological University</h5>
       <h2>Achievements</h2>
       <Swiper className="container TechnicalCourses__container"
-       navigation={true} 
-       modules={[Pagination, Navigation]}
-       pagination={{
-        type: 'fraction',
-      }}
+       modules={[Pagination]}
+       spaceBetween={40}
+       slidesPerView={1}
+       pagination={{ clickable: true }}
      >
         {
           data.map(({ avatar, name, review }, index) => {
