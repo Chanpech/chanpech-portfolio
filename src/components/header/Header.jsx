@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/prof_headshot1.png'
+import ME from '../../assets/graduatepic.png'
 import HeaderSocial from './HeaderSocial'
 
 //The style of naming classes is called  bim
